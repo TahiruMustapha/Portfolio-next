@@ -9,9 +9,9 @@ type Props = {
 const OfferCard:FunctionComponent<Props> = ({ Icon, title, subTitle }) => {
   return (
     <div className=" w-full shadow-cardShadwo flex flex-col items-center justify-center gap-10 py-16">
-      {Icon && <Icon className="text-7xl text-designColors" />}
-      <h1 className="text-2xl font-semibold uppercase tracking-[10px] text-gray-100">{title}</h1>
-      <p className="text-2xl text-textColor px-10 text-center leading-[40px]">{subTitle}</p>
+      {Icon && <Icon className=" text-5xl md:text-7xl text-designColors" />}
+      <h1 className=" text-xl md:text-2xl font-semibold uppercase tracking-[10px] text-gray-100">{title}</h1>
+      <p className="text-xl md:text-2xl text-textColor px-10 text-center leading-[40px]">{subTitle}</p>
     </div>
   );
 };

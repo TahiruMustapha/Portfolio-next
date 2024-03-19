@@ -8,10 +8,10 @@ const AboutMe = () => {
       className=" w-full h-full  bg-black text-white py-28 px-4"
     >
       <div className=" max-w-6xl   mx-auto  gap-6 md:gap-16">
-        <h1 className=" text-3xl py-3 tracking-[6px] uppercase font-semibold text-center ">
+        <h1 className=" text-2xl md:text-3xl py-3 tracking-[6px] uppercase font-semibold text-center ">
           Story About Me
         </h1>
-        <p className=" text-xl md:text-3xl font-medium md:leading-relaxed text-textColor">
+        <p className="  text-xl md:text-3xl font-medium md:leading-relaxed text-textColor">
           I' m{" "}
           <span className=" font-bold tracking-wider text-white">
             {" "}

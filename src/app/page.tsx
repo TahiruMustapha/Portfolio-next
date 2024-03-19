@@ -9,7 +9,7 @@ import Contact from "@/components/Contact";
 import ScrollToTop from "@/components/ScrollToTop";
 export default function Home() {
   return (
-    <main>
+    <main className=" overflow-x-hidden">
       <Banner />
       <AboutMe />
       <Offers />

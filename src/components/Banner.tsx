@@ -25,7 +25,7 @@ const Banner = () => {
     };
   }, []);
   return (
-    <section id="home" className="w-full relative text-white">
+    <section id="home" className=" w-full relative text-white">
       <Design />
       <div className=" absolute left-0 top-0 w-full h-[700px] bg-black bg-opacity-10 ">
         <nav
@@ -33,7 +33,7 @@ const Banner = () => {
             backgroundColor: navColor,
             transition: "all 1s",
           }}
-          className=" px-10 w-full  md:px-16 py-6 flex items-center justify-between bg-black fixed top-0 z-40 bg-opacity-25"
+          className=" px-10 w-full  md:px-16 py-6 flex items-center justify-between bg-black md:fixed top-0 z-40 bg-opacity-25"
         >
           <h1 className=" cursor-pointer text-2xl md:text-4xl text-white font-extrabold border-2 w-12 text-center">
             T
@@ -51,12 +51,12 @@ const Banner = () => {
           <h1 className="text-[50px] md:text-[80px] lg:text-[100px] font-black">
             I'm Mustapha Tahiru
           </h1>
-          <div className=" flex items-center uppercase gap-2 md:gap-6 text-base md:text-lg font-bold bg-designColors px-6 py-3">
-            <h1 className="tracking-[4px] ">Leader</h1>
+          <div className=" w-full md:w-fit flex items-center uppercase gap-2 md:gap-6 text-base md:text-lg font-bold bg-designColors px-6 py-3">
+            <h1 className="tracking-[2px] md:tracking-[4px] ">Leader</h1>
             <HiMinus className=" text-2xl rotate-90" />
-            <h1 className="tracking-[4px] ">Designer</h1>
+            <h1 className="tracking-[2px] md:tracking-[4px]  ">Designer</h1>
             <HiMinus className=" text-2xl rotate-90" />
-            <h1 className="tracking-[4px] ">Youtuber</h1>
+            <h1 className="tracking-[2px] md:tracking-[4px]  ">Developer</h1>
             <HiMinus className=" text-2xl rotate-90" />
           </div>
         </div>
