@@ -52,7 +52,7 @@ const Banner = () => {
             I'm Mustapha Tahiru
           </h1>
           <div className=" md:w-fit flex items-center uppercase gap-2 md:gap-6 text-base md:text-lg font-bold bg-designColors md:px-6 py-3">
-            <h1 className="tracking-[1px] md:tracking-[4px] ">Leader</h1>
+            <h1 className="tracking-[1px] pl-2 md:tracking-[4px] ">Leader</h1>
             <HiMinus className=" text-2xl rotate-90" />
             <h1 className="tracking-[1px] md:tracking-[4px]  ">Designer</h1>
             <HiMinus className=" text-2xl rotate-90" />
