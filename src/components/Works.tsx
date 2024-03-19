@@ -20,7 +20,7 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-52 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
                   Web Design
                 </h1>
               </div>
@@ -36,7 +36,7 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-52 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
                   Ecommerce
                 </h1>
               </div>
@@ -52,7 +52,7 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-52 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
                   Web Apps
                 </h1>
               </div>
@@ -68,7 +68,7 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-52 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
                   Mobile Apps
                 </h1>
               </div>
