@@ -33,7 +33,7 @@ const Banner = () => {
             backgroundColor: navColor,
             transition: "all 1s",
           }}
-          className=" px-10 w-full  md:px-16 py-6 flex items-center justify-between bg-black md:fixed top-0 z-40 bg-opacity-25"
+          className=" px-10 w-full  md:px-16 py-6 flex items-center justify-between bg-black fixed top-0 z-40 bg-opacity-25"
         >
           <h1 className=" cursor-pointer text-2xl md:text-4xl text-white font-extrabold border-2 w-12 text-center">
             T
