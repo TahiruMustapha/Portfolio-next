@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className=" w-full h-[800px]  relative px-4 bg-fixed text-white bg-contact-image bg-cover bg-center"
+      className=" w-full h-fit  relative px-4 bg-fixed text-white bg-contact-image bg-cover bg-center"
     >
       <div className=" w-full h-full bg-black bg-opacity-90 py-20">
         <div className=" max-w-6xl h-full mx-auto flex flex-col gap-6 md:gap-12">
