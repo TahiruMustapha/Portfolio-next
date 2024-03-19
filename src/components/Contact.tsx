@@ -35,7 +35,7 @@ const Contact = () => {
           <h1 className=" text-center uppercase tracking-widest text-3xl font-thin ">
             Say Hello!
           </h1>
-          <div className=" flex flex-col md:flex-row items-center justify-between">
+          <div className=" flex flex-col gap-4 md:flex-row items-center justify-between">
             <div className=" flex flex-col items-center gap-3">
               <FaMap className=" text-4xl text-designColors" />
               <p className=" text-sm tracking-wide">Kumasi,Ghana</p>
