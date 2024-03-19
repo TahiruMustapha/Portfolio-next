@@ -28,9 +28,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className=" w-full h-fit  relative px-4 bg-fixed text-white bg-contact-image bg-cover bg-center"
+      className=" w-full h-fit  relative  bg-fixed text-white bg-contact-image bg-cover bg-center"
     >
-      <div className=" w-full h-full bg-black bg-opacity-90 py-20">
+      <div className=" w-full  h-full bg-black bg-opacity-90 py-20">
         <div className=" max-w-6xl h-full mx-auto flex flex-col gap-6 md:gap-12">
           <h1 className=" text-center uppercase tracking-widest text-3xl font-thin ">
             Say Hello!
@@ -61,7 +61,7 @@ const Contact = () => {
               {successMsg}
             </motion.p>
           ) : (
-            <form className=" flex flex-col w-full items-center gap-4 md:gap-10">
+            <form className=" flex flex-col w-full px-2 items-center gap-4 md:gap-10">
               <div className=" flex flex-col w-full md:flex-row items-center gap-4 md:gap-10">
                 <input
                   onChange={(e) => setUsername(e.target.value)}
