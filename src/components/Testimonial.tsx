@@ -63,7 +63,7 @@ const Testimonial = () => {
       id="testimonial"
       className=" text-white bg-[#0F1113]  py-20 flex justify-center items-center"
     >
-      <div className="max-w-[410px] px-3 h-60 md:w-[620px] md:px-4">
+      <div className="max-w-[450px]  h-60 md:w-[620px] md:px-4">
         <div>
           <Slider {...settings}>
             <div>
