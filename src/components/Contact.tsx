@@ -4,26 +4,50 @@ import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope, FaMap } from "react-icons/fa6";
 import { easeIn, motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 const Contact = () => {
-  const [username, setUsername] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const form: any = useRef();
+  const [user_name, setUsername] = useState("");
+  const [user_email, setEmail] = useState("");
+  const [user_message, setMessage] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    if (username === "") {
+    if (user_name === "") {
       setErrorMsg("Enter Name");
-    } else if (email === "") {
+    } else if (user_email === "") {
       setErrorMsg("Enter Email");
-    } else if (message === "") {
+    } else if (user_message === "") {
       setErrorMsg("Enter Enter Message");
     } else {
       setSuccessMsg(
-        `Hi ${username}, Thank you for your messages. Additional information will be sent to you shortly via your email at ${email}.`
+        `Hi ${user_name}, Thank you for your messages. Additional information will be sent to you shortly via your email at ${user_email}.`
       );
     }
+    const templateParams = {
+       user_name,
+       user_email,
+      user_message,
+    };
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
   };
   return (
     <section
@@ -54,14 +78,17 @@ const Contact = () => {
           {successMsg ? (
             <motion.p
               initial={{ y: 50, opacity: 0 }}
-              animate={{y:1,opacity:1}}
-              transition={{duration:0.5,type:easeIn}}
+              animate={{ y: 1, opacity: 1 }}
+              transition={{ duration: 0.5, type: easeIn }}
               className=" max-w-[600px] h-full flex justify-center items-center mx-auto text-lg font-semibold px-4"
             >
               {successMsg}
             </motion.p>
           ) : (
-            <form className=" flex flex-col w-full px-2 items-center gap-4 md:gap-10">
+            <form
+              ref={form}
+              className=" flex flex-col w-full px-2 items-center gap-4 md:gap-10"
+            >
               <div className=" flex flex-col w-full md:flex-row items-center gap-4 md:gap-10">
                 <input
                   onChange={(e) => setUsername(e.target.value)}
