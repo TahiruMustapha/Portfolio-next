@@ -6,7 +6,7 @@ const Testimonial = () => {
   const settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -65,7 +65,7 @@ const Testimonial = () => {
     >
       <div className="max-w-full px-1 h-60 md:w-[620px] md:px-4">
         
-          <Slider {...settings}>
+          <Slider {...settings} >
             <div>
               <p className=" text-xl text-left px-2 md:px-0 text-textColor md:text-center leading-8">
                 <span className="text-white">Benab Company CEO</span> - A
