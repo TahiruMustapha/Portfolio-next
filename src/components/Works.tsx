@@ -1,6 +1,9 @@
 import React from "react";
 import { w1, w2, w3, w4, w5 } from "../../public/assets/index";
+
+
 import Image from "next/image";
+import Link from "next/link";
 const Works = () => {
   return (
     <section
@@ -20,9 +23,9 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
-                  Web Design
-                </h1>
+                <Link href={"https://tahiru-blog.vercel.app/"} target="_blank" className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                  Blog WebApp
+                </Link>
               </div>
             </div>
           </div>
@@ -36,9 +39,9 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
-                  Ecommerce
-                </h1>
+                <Link href={"https://benab-blog.vercel.app/"} target="_blank" className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                  Blog WebApp
+                </Link>
               </div>
             </div>
           </div>
@@ -52,9 +55,9 @@ const Works = () => {
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
-                  Web Apps
-                </h1>
+                <Link href={"https://benab.vercel.app/"} target="_blank" className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                  Ecommerce
+                </Link>
               </div>
             </div>
           </div>
@@ -62,15 +65,15 @@ const Works = () => {
         <div className=" w-full h-full overflow-y-hidden  group">
           <div className=" border-white  w-full h-full relative   shadow-md rounded-md">
             <Image
-              src={w5}
+              src={w4}
               alt="works image"
               className=" w-full rounded-md   h-full object-cover scale-100 group-hover:scale-75 duration-500"
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
-                <h1 className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
-                  Mobile Apps
-                </h1>
+                <Link href={'https://s-mart-419e.vercel.app/'} target="_blank" className=" bg-designColors absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:bottom-52 bottom-80 text-white px-6 py-2 w-60 font-bold text-center text-2xl">
+                  Ecommerce
+                </Link>
               </div>
             </div>
           </div>
