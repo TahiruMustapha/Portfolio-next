@@ -63,11 +63,11 @@ const Testimonial = () => {
       id="testimonial"
       className=" text-white bg-[#0F1113]  py-20 flex justify-center items-center"
     >
-      <div className="max-w-[450px]  h-60 md:w-[620px] md:px-4">
-        <div>
+      <div className="max-w-full px-1 h-60 md:w-[620px] md:px-4">
+        
           <Slider {...settings}>
             <div>
-              <p className=" text-xl  text-textColor md:text-center leading-8">
+              <p className=" text-xl text-left px-2 md:px-0 text-textColor md:text-center leading-8">
                 <span className="text-white">Benab Company CEO</span> - A
                 software solutions and research center that is dedicated to
                 developing innovative software solutions, conducting research to
@@ -77,7 +77,7 @@ const Testimonial = () => {
               </p>
             </div>
             <div>
-              <p className=" text-xl  text-textColor md:text-center leading-8">
+              <p className=" text-xl text-left px-2 text-textColor md:text-center leading-8">
                 <span className="text-white">Google Company CEO</span> - A
                 software solutions and research center that is dedicated to
                 developing innovative software solutions, conducting research to
@@ -87,7 +87,7 @@ const Testimonial = () => {
               </p>
             </div>
             <div>
-              <p className=" text-xl  text-textColor md:text-center leading-8">
+              <p className=" text-xl text-left px-2 text-textColor md:text-center leading-8">
                 <span className="text-white">OpenAi CEO</span> - A software
                 solutions and research center that is dedicated to developing
                 innovative software solutions, conducting research to advance
@@ -96,7 +96,7 @@ const Testimonial = () => {
               </p>
             </div>
           </Slider>
-        </div>
+        
       </div>
     </section>
   );
