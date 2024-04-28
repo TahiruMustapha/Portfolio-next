@@ -4,6 +4,7 @@ import { w1, w2, w3, w4, w5 } from "../../public/assets/index";
 
 import Image from "next/image";
 import Link from "next/link";
+import { ImGift } from "react-icons/im";
 const Works = () => {
   return (
     <section
@@ -16,10 +17,10 @@ const Works = () => {
       <div className=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-0 h-[1000px] mt-16 py-6 md:h-[480px]">
         <div className=" w-full h-full overflow-y-hidden  group">
           <div className=" border-white  w-full h-full relative   shadow-md rounded-md">
-            <Image
-              src={w1}
+            <img
+              src={"/blog1.jpg"}
               alt="works image"
-              className=" w-full rounded-md   h-full object-cover scale-100 group-hover:scale-75 duration-500"
+              className=" w-full rounded-md    object-cover scale-100 group-hover:scale-75 duration-500"
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
@@ -32,10 +33,10 @@ const Works = () => {
         </div>
         <div className=" w-full h-full overflow-y-hidden  group">
           <div className=" border-white  w-full h-full relative   shadow-md rounded-md">
-            <Image
-              src={w2}
+            <img
+              src={"blog2.jpg"}
               alt="works image"
-              className=" w-full rounded-md   h-full object-cover scale-100 group-hover:scale-75 duration-500"
+              className=" w-full rounded-md   object-cover scale-100 group-hover:scale-75 duration-500"
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
@@ -48,10 +49,10 @@ const Works = () => {
         </div>
         <div className=" w-full h-full overflow-y-hidden  group">
           <div className=" border-white  w-full h-full relative   shadow-md rounded-md">
-            <Image
-              src={w3}
+            <img
+              src={"ecom1.jpg"}
               alt="works image"
-              className=" w-full rounded-md   h-full object-cover scale-100 group-hover:scale-75 duration-500"
+              className=" w-full  rounded-md  object-cover scale-100 group-hover:scale-75 duration-500"
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
@@ -64,10 +65,10 @@ const Works = () => {
         </div>
         <div className=" w-full h-full overflow-y-hidden  group">
           <div className=" border-white  w-full h-full relative   shadow-md rounded-md">
-            <Image
-              src={w4}
+            <img
+              src={"ecom2.jpg"}
               alt="works image"
-              className=" w-full rounded-md   h-full object-cover scale-100 group-hover:scale-75 duration-500"
+              className=" w-full rounded-md  object-cover scale-100 group-hover:scale-75 duration-500"
             />
             <div className=" absolute w-full h-[480px] left-0 top-0">
               <div className=" w-full h-full    bg-black bg-opacity-70 hidden group-hover:inline-block transition-opacity duration-500">
