@@ -18,16 +18,12 @@ const AboutMe = () => {
             Mustapaha Tahiru,{" "}
           </span>{" "}
           Mustapah Tahiru is a fast learner and a versatile software developer
-          proficient in <span className="text-bold text-white">
-            JavaScript
-          </span>{" "}
-          , <span className="text-bold text-white">Python</span> ,
-          <span className="text-bold text-white">PHP</span> ,{" "}
-          <span className="text-bold text-white">Flutter</span> ,{" "}
-          <span className="text-bold text-white">Kotlin</span> , and{" "}
+          proficient in{" "}
+          <span className="text-bold text-white">JavaScript and</span>{" "}
           <span className="text-bold text-white">TypeScript</span> , among
-          others. His expertise extends to various frameworks such as{" "}
+          others. His expertise extends to various technologies such as{" "}
           <span className="text-bold text-white">React</span> ,{" "}
+          <span className="text-bold text-white">React Native</span> ,{" "}
           <span className="text-bold text-white">Next.js</span> ,{" "}
           <span className="text-bold text-white">Node.js</span> ,{" "}
           <span className="text-bold text-white">Sanity</span> , and{" "}
