@@ -131,7 +131,7 @@ const Contact = () => {
                 </span>
               </p>
             </div>
-            <p>@ 2024 Benab All rights reserved</p>
+            <p>@ 2025 Benab All rights reserved</p>
           </div>
         </div>
       </div>
